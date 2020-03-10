@@ -20,9 +20,12 @@ const Character = () => {
              return(
                 <PersonCard
                     name={data.name}
+                    gender={data.gender}
                     height={data.height}
                     mass={data.mass}
                     birth_year={data.birth_year}
+                    hair={data.hair_color}
+                    
                     />
                 )
             })
